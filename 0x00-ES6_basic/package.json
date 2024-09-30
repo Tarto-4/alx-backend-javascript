@@ -1,12 +1,13 @@
 {
-    "name": "0x00-es6_basic",
+    "name": "your-project-name",
     "version": "1.0.0",
-    "main": ".eslintrc.js",
+    "description": "Your project description",
+    "main": "index.js",
     "scripts": {
+      "dev": "node 0-main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
+    "author": "Your Name",
     "license": "ISC",
-    "description": ""
-  }
+    "dependencies": {}
+}
