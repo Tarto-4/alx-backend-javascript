@@ -1,6 +1,6 @@
 export default function getResponseFromAPI() {
-  const p = new Promise(() => {
-
+  return new Promise((resolve, reject) => {
+    // Optionally, resolve or reject the promise
+    resolve();  // You can resolve the promise with or without a value
   });
-  return p;
 }
